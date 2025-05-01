@@ -20,4 +20,6 @@ All python code can be converted to HEX using https://python.microbit.org/. You 
 
 Download the index.html and script.js into a folder on your computer. Open the index.html file into a chrome browser (the best one for connecting with micro:bits). As a standard, the maximum number of minutes of delay between disturbances is 1 minute. To change this open the script.js file and change the maxWaitTime parameter to your desired wait time. Save this change and reload the index.html file in your browser. In a later version I will make it possible to change the number of minutes in the index.html file so you do not need to engage with the script.js file at all.
 
-Connect the master micro:bit to the computer and let it stay there for the entire duration of the activity. In the browser, press the "start" button. Connect battery packs to any number of P-mbs.
+Connect the master micro:bit to the computer and let it stay there for the entire duration of the activity. In the browser, press the "start" button. Connect battery packs to any number of participant micro:bits.
+
+To stop the interface from making updates, disconnect the master micro:bit from the computer. To close the activity, disconnect the master micro:bit from the computer, reload the index.html file and reset/remove batteries from all participant micro:bits. All information is now gone and you can start over.
